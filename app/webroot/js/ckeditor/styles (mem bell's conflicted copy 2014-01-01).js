@@ -1,0 +1,296 @@
+﻿/**
+ * Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.html or http://ckeditor.com/license
+ */
+
+// This file contains style definitions that can be used by CKEditor plugins.
+//
+// The most common use for it is the "stylescombo" plugin, which shows a combo
+// in the editor toolbar, containing all styles. Other plugins instead, like
+// the div plugin, use a subset of the styles on their feature.
+//
+// If you don't have plugins that depend on this file, you can simply ignore it.
+// Otherwise it is strongly recommended to customize this file to match your
+// website requirements and design properly.
+
+CKEDITOR.stylesSet.add( 'default', [
+	/* Block Styles */
+
+	// These styles are already available in the "Format" combo ("format" plugin),
+	// so they are not needed here by default. You may enable them to avoid
+	// placing the "Format" combo in the toolbar, maintaining the same features.
+	/*
+	{ name: 'Paragraph',		element: 'p' },
+	{ name: 'Heading 1',		element: 'h1' },
+	{ name: 'Heading 2',		element: 'h2' },
+	{ name: 'Heading 3',		element: 'h3' },
+	{ name: 'Heading 4',		element: 'h4' },
+	{ name: 'Heading 5',		element: 'h5' },
+	{ name: 'Heading 6',		element: 'h6' },
+	{ name: 'Preformatted Text',element: 'pre' },
+	{ name: 'Address',			element: 'address' },
+	*/
+
+	{ name: 'Italic Title',		element: 'h2', styles: { 'font-style': 'italic' } },
+	{ name: 'Subtitle',			element: 'h3', styles: { 'color': '#aaa', 'font-style': 'italic' } },
+	{
+		name: 'Special Container',
+		element: 'div',
+		styles: {
+			padding: '5px 10px',
+			background: '#eee',
+			border: '1px solid #ccc',
+                        width: '920px',
+                        'word-wrap': 'break-word'
+		},
+                
+	},
+        {
+		name: 'Special Container (.)',
+		element: 'div',
+		styles: {
+			padding: '5px 10px',
+			background: '#eee',
+                        margin:'0px 0px 0px 100px',
+			border: '1px solid #ccc',
+                        width: '670px',
+                        'word-wrap': 'break-word'
+		},
+                
+	},
+        
+        {
+		name: 'Special Ca ro',
+		element: 'div',
+		styles: {
+			padding: '5px 10px',
+			background: 'url(http://static.tumblr.com/38tkyuw/041lqhbom/back2.jpg)',
+                        width: '920px',
+                        'word-wrap': 'break-word'
+		}
+	},
+        {
+		name: 'Special Ca ro(.)',
+		element: 'div',
+		styles: {
+			padding: '5px 10px',
+                        margin:'0px 0px 0px 100px',
+			background: 'url(http://static.tumblr.com/38tkyuw/041lqhbom/back2.jpg)',
+                        width: '670px',
+                        'word-wrap': 'break-word'
+		}
+	},
+        {
+		name: 'ke ca ro',
+		element: 'div',
+		styles: {
+			padding: '10px',
+			//background: '#00ccff',
+                        background: 'url(http://static.tumblr.com/38tkyuw/041lqhbom/back2.jpg)',
+			'border-radius': '30px',
+                        border: '1px solid #0066cc',
+                        'box-shadow': '0 2px 2px rgba(0,0,0, .5)',
+                        'word-wrap': 'break-word',
+                        width: '920px'
+		}
+	},
+        {
+		name: 'ke ca ro',
+		element: 'div',
+		styles: {
+			padding: '10px',
+			//background: '#00ccff',
+                        background: 'url(http://static.tumblr.com/38tkyuw/041lqhbom/back2.jpg)',
+			'border-radius': '30px',
+                        border: '1px solid #0066cc',
+                        'box-shadow': '0 2px 2px rgba(0,0,0, .5)',
+                        'word-wrap': 'break-word',
+                        width: '920px'
+		}
+	},
+        
+        {
+		name: 'soc-v',
+		element: 'div',
+		styles: {
+			padding: '10px 220px 10px 230px',
+			//background: '#00ccff',
+                        'background-image': 'url(http://3.bp.blogspot.com/_D1ydwHhYRh8/TNn9JXdWW2I/AAAAAAAAAVk/3we_eQYcqrE/s1600/background42column.jpg)',
+			'background-size': '920px',
+                        'background-repeat': 'repeat-y',
+                        width: '470px',
+                        'word-wrap': 'break-word'
+		}
+	},
+        
+        {
+		name: 'green-o',
+		element: 'div',
+		styles: {
+			padding: '10px',
+			//background: '#00ccff',
+                        background: 'url(http://www.designbash.com/wp-content/uploads/2010/01/green-noise-background.png)',
+			'border-radius': '30px',
+                        'box-shadow': '0 2px 2px rgba(0,0,0, .5)',
+                        'word-wrap': 'break-word',
+                        width: '920px',
+		}
+	},
+        
+        {
+		name: 'paper-v',
+		element: 'div',
+		styles: {
+			padding: '10px',
+			//background: '#00ccff',
+                        background: 'url(http://www.aapopuskala.fi/_img/paper.jpg)', 
+                        'box-shadow': '0 2px 2px rgba(0,0,0, .5)',
+                        'word-wrap': 'break-word',
+                        width: '920px',
+		}
+	},
+        {
+		name: 'paper-o',
+		element: 'div',
+		styles: {
+			padding: '10px',
+			//background: '#00ccff',
+                        background: 'url(http://www.aapopuskala.fi/_img/paper.jpg)',
+			'border-radius': '30px',
+                        'box-shadow': '0 2px 2px rgba(0,0,0, .5)',
+                        'word-wrap': 'break-word',
+                        width: '920px',
+		}
+	},
+
+
+        {
+		name: 'love',
+		element: 'div',
+		styles: {
+			padding: '10px 150px 10px 150px',
+			//background: '#00ccff',
+                        'background-image': 'url(http://i6.upanh.com/2013/0718/08//56854194.love.jpg)',
+                        'background-repeat': 'no-repeat',
+                        width:'580px',
+                        'word-wrap': 'break-word'
+		}
+	},
+        
+        
+        
+        {
+		name: 'tweet',
+		element: 'div',
+		styles: {
+			padding: '10px 290px 10px 190px',
+			//background: '#00ccff',
+                        'background-image': 'url(http://i0.upanh.com/2013/0718/07//56853621.untitled1.jpg)',
+                        'background-repeat': 'no-repeat',
+                        
+                        width:'480px',
+                        'word-wrap': 'break-word'
+		}
+	},
+        
+        {
+		name: 'flower',
+		element: 'div',
+		styles: {
+			padding: '10px 290px 10px 190px',
+			//background: '#00ccff',
+                        'background-image': 'url(http://i2.upanh.com/2013/0718/08//56854973.flower.jpg)',
+                        'background-repeat': 'no-repeat',
+                        
+                        width:'480px',
+                        'word-wrap': 'break-word'
+		}
+	},
+        {
+		name: 'Green-beautiful',
+		element: 'div',
+		styles: {
+			padding: '10px 150px 10px 180px',
+			//background: '#00ccff',
+                        'background-image': 'url(http://i0.upanh.com/2013/0718/09//56855313.greenbeautiful.jpg)',
+                        'background-repeat': 'no-repeat',
+                        
+                        width:'520px',
+                        'word-wrap': 'break-word'
+		}
+	},
+        /* Inline Styles */
+
+	// These are core styles available as toolbar buttons. You may opt enabling
+	// some of them in the Styles combo, removing them from the toolbar.
+	// (This requires the "stylescombo" plugin)
+	/*
+	{ name: 'Strong',			element: 'strong', overrides: 'b' },
+	{ name: 'Emphasis',			element: 'em'	, overrides: 'i' },
+	{ name: 'Underline',		element: 'u' },
+	{ name: 'Strikethrough',	element: 'strike' },
+	{ name: 'Subscript',		element: 'sub' },
+	{ name: 'Superscript',		element: 'sup' },
+	*/
+       {
+		name: 'Title SM',
+		element: 'div',
+		styles: {
+                        padding: '5px 10px',
+                        'background-image': 'url(http://i8.upanh.com/2013/0718/06/56852513.logosmmail.120x1.png)',
+                        'background-repeat': 'no-repeat',
+                        'background-size': '70px'
+		}
+	},
+	{ name: 'Marker',			element: 'span', attributes: { 'class': 'marker' } },
+
+	{ name: 'Big',				element: 'big' },
+	{ name: 'Small',			element: 'small' },
+	{ name: 'Typewriter',		element: 'tt' },
+
+	{ name: 'Computer Code',	element: 'code' },
+	{ name: 'Keyboard Phrase',	element: 'kbd' },
+	{ name: 'Sample Text',		element: 'samp' },
+	{ name: 'Variable',			element: 'var' },
+
+	{ name: 'Deleted Text',		element: 'del' },
+	{ name: 'Inserted Text',	element: 'ins' },
+
+	{ name: 'Cited Work',		element: 'cite' },
+	{ name: 'Inline Quotation',	element: 'q' },
+
+	{ name: 'Language: RTL',	element: 'span', attributes: { 'dir': 'rtl' } },
+	{ name: 'Language: LTR',	element: 'span', attributes: { 'dir': 'ltr' } },
+
+	/* Object Styles */
+
+	{
+		name: 'Styled image (left)',
+		element: 'img',
+		attributes: { 'class': 'left' }
+	},
+
+	{
+		name: 'Styled image (right)',
+		element: 'img',
+		attributes: { 'class': 'right' }
+	},
+
+	{
+		name: 'Compact table',
+		element: 'table',
+		attributes: {
+			cellpadding: '5',
+			cellspacing: '0',
+			border: '1',
+			bordercolor: '#ccc'
+		},
+		styles: {
+			'border-collapse': 'collapse'
+		}
+	},
+
+	{ name: 'Borderless Table',		element: 'table',	styles: { 'border-style': 'hidden', 'background-color': '#E6E6FA' } },
+	{ name: 'Square Bulleted List',	element: 'ul',		styles: { 'list-style-type': 'square' } }
+]);
+

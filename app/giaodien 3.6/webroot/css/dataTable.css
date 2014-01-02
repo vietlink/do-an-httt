@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+.dataTable{
+	width: 100%;
+}
+
+.dataTable th {
+	color: #969696;
+	font-size: 13px;
+}
+.dataTables_length{
+	float: left;
+	margin-left: 20px;
+}
+
+.dataTables_filter {
+	float: right;
+}
+
+.dataTables_filter input {
+	width: 50%;
+	margin-top: -6px;
+	height:	32px;
+}
+
+/*.dataTable thead{
+	background: transparent;
+	font-weight: bold;
+	color: #5C5C5C;
+}*/
+
+/*thead .text-right{
+   text-align: right;
+}*/
+/*.text-right .DataTables_sort_wrapper{
+	padding-right: 20px;
+}*/
+
+.dataTable tbody tr{
+	border-bottom: 1px dashed #C7C8C9;
+}
+.dataTable .odd{
+	background: #eaeff3;
+}
+.dataTable .even{
+}
+
+.DataTables_sort_wrapper{
+	position: relative;
+	padding: 5px 0px;
+}
+
+
+.dataTables_paginate {
+	text-align: right;
+	margin: 20px 0px;
+	color: #868686 !important;
+}
+.dataTables_paginate a,.dataTables_paginate span{
+	padding: 3px 8px;
+	margin: 3px !important;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd !important;
+	text-decoration: none;
+	color: #868686 !important;
+}
+.paging_full_numbers span {
+	border: none !important;
+	background: transparent;
+	background-color: transparent !important;
+}
+.dataTables_paginate span{
+	background-color: #f5f5f5;
+}
+.dataTables_paginate a:HOVER,.dataTables_paginate .active{
+	background-color: rgba(255, 41, 0, 0.8) !important;
+	text-decoration: none;
+	color: white !important;
+}
+.dataTables_info{
+	background: #e7e7e7;
+	text-align: left;
+	padding: 9px;
+}
+.note_color,.note_text{
+	float: left;
+}
+.note_color{
+	width: 16px;height: 16px;
+	margin-right: 5px
+}
+.note_text{
+	margin-right: 30px;
+	margin-top: 2px;
+}
+.div_note{
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+.tr4{
+	background: #eaeff3;
+}
+.tr4 td,.tr3 td,.tr2 th{
+	padding: 7px;
+}
+.tr2{
+	background: #e7e7e7;
+}
+.tr2 a{
+	font-weight: bold;
+	color: #5c5c5c;
+}
+a.ui-state-disabled{
+	background-color: #357AE2 !important;
+	color: white !important;
+}
+
+.tr4,.tr3{
+	color: #333;
+}
+#dataTable_wrapper .ui-widget-header,#dataTable_wrapper .ui-state-default,#dataTable_wrapper .ui-widget-content .ui-state-default,#dataTable_wrapper .ui-widget-header .ui-state-default {
+	background: transparent;
+	border: none;
+	font-weight: normal;
+	color: #5C5C5C;
+}
+
+.text-right{
+	text-align: right;
+}
+#dataTable tbody tr td {
+padding: 7px;
+}
